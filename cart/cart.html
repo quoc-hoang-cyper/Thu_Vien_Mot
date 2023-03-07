@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Giỏ Hàng</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html">
+                    <div class="logo"><img src="../hinh/remakelogo2.png" alt="logo" width="178px"></div>
+                </a>
+                <div class="menu">
+                    <a href="../index.html">
+                        Home
+                    </a>
+                    <a href="../about/indexabout.html">
+                        Thư Viện Mọt
+                    </a>
+                    <a href="../promotion/promotion.html">
+                        Sách hay nên đọc
+                    </a>
+                    <a id="xinchao" href="../loginpage/indexloginpage.html">
+                        Login
+                    </a>
+                    <a href="../cart/cart.html"><img style="padding-top: 5%;" src="../hinh/cart.png" width="45px"
+                            height="45px"></a>
+                    <div>
+                        <a href="#" id="dangxuat" onclick="logout()"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="cart_area section_padding_100 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cart-table clearfix">
+                            <table class="table table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="listSP">
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="cart-footer d-flex mt-30">
+                            <div class="back-to-shop w-50">
+                                <a href="../about/indexabout.html">Continue shooping</a>
+                            </div>
+                            <div class="update-checkout w-50 text-right">
+                                <a href="#">clear cart</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="insiderow">
+                        <div class="cart-total-area mt-70">
+                            <div class="cart-page-heading">
+                                <h5>Tổng Đơn Hàng</h5>
+                            </div>
+
+                            <ul class="cart-total-chart">
+                                <li><span>Subtotal</span> <span>$0.00</span></li>
+                                <li><span>Shipping</span> <span>Free</span></li>
+                                <li><span><strong>Total</strong></span> <span><strong>$0.00</strong></span></li>
+                            </ul>
+                            <a href="#" class="btn karl-checkout-btn">Proceed to checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div><img src="../hinh/remakelogo2.png"></div>
+            <div>
+                <h3>LIÊN HỆ</h3>
+                <li><a href="https://www.instagram.com/mot.review/">INSTAGRAM</a></li>
+                <li><a href="https://www.facebook.com/motmot.review">FACEBOOK</a></li>
+                <li>SĐT liên lạc: 0911240504 </li>
+                <li>Hỗ trợ khách hàng: Peterhoang240504@gmail.com </a></li>
+            </div>
+            <div>
+                <h3>Dịch vụ hỗ trợ</h3>
+                <li><a href="../footer/vande.html">Những vấn đề thường gặp</a></li>
+                <li><a href="../footer/dvhotro/doitra/doitra.html">Chính sách ĐỔI TRẢ sản phẩm</a></li>
+                <li><a href="../footer/dvhotro/vanchuyen/vanchuyen.html">Phương thức vận chuyển</a></li>
+            </div>
+            <div>
+                <h3>Tài khoản khách hàng</h3>
+                <li><a href="../loginpage/indexloginpage.html">Đăng nhập/Tạo tài khoản mới</a></li>
+                <li><a href="../footer/taikhoan/taikhoan.html">Thông tin tài khoản</a></li>
+                <li><a href="../footer/taikhoan/taikhoan.html">Lịch sử mua hàng</a></li>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./cart.js"></script>
+
+</html>
